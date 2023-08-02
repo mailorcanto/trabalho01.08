@@ -10,4 +10,7 @@ app.use('/api/', clientRouter);
 import productRouter from './router/productRouter';
 app.use('/api/', productRouter);
 
+import cartRouter from './router/cartRouter';
+app.use('/api/', cartRouter);
+
 export default app;
